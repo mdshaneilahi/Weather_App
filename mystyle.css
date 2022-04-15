@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-image: url('clear.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.aap-main{
+    height: 95vh;
+    width: 150vh;
+    margin: 25px auto;
+    background-color: rgba(151, 235, 235, 0.239);
+    box-shadow: 3px 4px 10px rgba(0, 0, 0,0.5);
+    padding: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+.aap-main > *{
+    margin-bottom: 23px;
+}
+.input-box{
+    width: 35%;
+    background-color:rgba(0, 255, 204,0.7);
+    box-shadow: 3px 4px 10px rgba(0, 0, 0,0.5);
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 530;
+    font-size: 0.9rem;
+    height:22px;
+    border-radius: 15px;
+    padding: 0 10px;
+    text-align: center;
+
+}
+.input-box:focus {
+    background:rgb(204, 255, 255);
+
+}
+
+.weather-body {
+    display: none;
+    color: #020202;
+    padding: 50px;
+    line-height: 2rem;
+    border-radius: 50px;
+    background-color: rgba(240, 248, 255, 0.6);
+    box-shadow: 3px 4px 10px rgba(0, 0, 0,0.5);
+    height: 70vh;
+}
+.temp2{
+    display: flex;
+    align-items: center;
+}
+.city{
+    font-size: 2rem;
+    margin: -17px;
+    font-weight: 500;
+}
+.lat-lon{
+    font-size: 1rem;
+    padding: 25px;
+    font-weight: 500;
+}
+.date{
+  
+    font-size: 2rem;
+    /* padding: 30px; */
+    font-weight: 500;
+
+}
+
+
+.temp {
+   color:orange;
+      font-size: 35pt;
+      font-weight: 700;
+      margin: 20px 0;
+      text-shadow: 2px 4px rgba(0, 0, 0,0.3);
+  }
+.feel-temp{
+
+    margin-left: 95px;
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 600;
+    height: 0px;
+
+  }
+.min-max {
+    margin-right: -4px;
+    text-align: right;
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 0px;
+   
+  }
+  .humidity{
+    margin-top: 8px;
+    margin-left: 66px;
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 600;
+    height: 0px;
+  }
+  .pressure{
+    margin-top: 0px;
+    margin-right: 48px;
+    text-align: right;
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 0px;
+  }
+  .wind{
+      font-size: 20pt;
+  }
+  .weather{
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 30px;
+  }
