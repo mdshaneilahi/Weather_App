@@ -2,7 +2,7 @@
 // alert("hi")
 
 const weatherApi = {
-    key: "71b9d42ffc05fdbe6adfdeae76b23d5a",
+,
     baseUrl: " https://api.openweathermap.org/data/2.5/weather"
 }
 const searchInputBox = document.getElementById('input-box');
